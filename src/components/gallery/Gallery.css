@@ -1,5 +1,6 @@
 .container {
   margin: auto;
+  margin-bottom: 7.5px;
 }
 
 .content {
@@ -12,13 +13,22 @@ img {
   display: block;
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .image {
   max-height: 100px;
   max-width: 100px;
+  margin: 0 7.5px;
   /* border: 1px solid black; */
+}
+
+#root > div > div.container > div.modal > div > button:nth-child(5) {
+  margin-right: 5px;
+}
+
+#root > div > div.container > div.modal > div > button:nth-child(6) {
+  margin-left: 5px;
 }
 
 @media screen and (min-width: 600px) {
@@ -34,7 +44,7 @@ img {
     display: block;
     width: 195px;
     height: 195px;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .image {

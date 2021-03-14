@@ -1,3 +1,53 @@
 .about {
   color: black;
 }
+
+.explanation {
+  margin: auto;
+  width: 75%;
+}
+
+#Magic {
+  width: 75%;
+  height: auto;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+#icon {
+  margin: auto;
+  width: 30%;
+  height: auto;
+}
+
+#gh {
+  margin-top: 75px;
+}
+
+@media screen and (min-width: 600px) {
+  #icon {
+    margin: auto;
+    width: 15%;
+    height: auto;
+  }
+
+  #Magic {
+    width: 40%;
+    height: auto;
+    margin: auto;
+  }
+
+  li {
+    width: 250px;
+    margin: auto;
+  }
+}

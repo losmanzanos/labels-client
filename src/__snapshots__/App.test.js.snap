@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the App as expected 1`] = `
+<div
+  className="App"
+>
+  <nav
+    className="Header"
+  >
+    <div
+      className="Harold"
+    >
+      <h1>
+        Harold
+      </h1>
+      <div>
+        <img
+          alt="Harold"
+          id="Harold"
+          src="Harold.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="Header__not-logged-in"
+    >
+      <a
+        aria-current="page"
+        className="hover active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Home
+      </a>
+       | 
+      <a
+        aria-current={null}
+        className="hover"
+        href="/about"
+        onClick={[Function]}
+      >
+        About
+      </a>
+       | 
+      <a
+        aria-current={null}
+        className="hover"
+        href="/register"
+        onClick={[Function]}
+      >
+        Register
+      </a>
+       | 
+      <a
+        aria-current={null}
+        className="hover"
+        href="/login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+    </div>
+  </nav>
+  <div
+    className="About"
+  >
+    <p>
+      Struggling to figure out what that picture you just downloaded is? Not hip enough to understand the latest memes?
+    </p>
+    <div>
+      <img
+        alt="Granny"
+        id="Granny"
+        src="granny.jpeg"
+      />
+    </div>
+    <p>
+      If this is you, Harold is here to help! Harold doesn't have the best vision, but he'll do his best to help you out!
+    </p>
+    <p
+      id="smaller"
+    >
+      (Or maybe he'll just confuse you even more...
+      <br />
+      If that's the case, sorry.)
+    </p>
+  </div>
+  <div
+    id="contact"
+  >
+    <p>
+      Contact me at:
+      <br />
+      <a
+        href="mailto:dahc.reverse@gmail.com?subject=YOU%20ROCK!"
+      >
+        dahc.reverse@gmail.com
+      </a>
+    </p>
+  </div>
+</div>
+`;

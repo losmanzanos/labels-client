@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="container gallery-container"
+  >
+    <div
+      className="tz-gallery"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="content"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

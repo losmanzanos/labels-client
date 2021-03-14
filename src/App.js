@@ -5,7 +5,7 @@ import Upload from "./components/upload/Upload";
 import Header from "./components/header/header";
 
 import Error from "./components/error/Error";
-// import EditEntry from "../EditEntry/EditEntry";
+
 import About from "./components/About/About";
 import Info from "./components/Info/Info";
 
@@ -27,14 +27,11 @@ function App() {
           <Switch>
             <Route exact path="/" component={About} />
             <Route path="/about" component={Info} />
-            {/* <Route path="/gratitude/:id" component={EditEntry} /> */}
             <PublicOnlyRoute path="/login" component={LoginPage} />
             <PublicOnlyRoute path="/register" component={RegistrationPage} />
             <PrivateRoute path="/gallery" component={Upload} />
             <Route component={NotFoundPage} />
           </Switch>
-
-          {/* <Upload /> */}
         </div>
       </Error>
     </AppProvider>

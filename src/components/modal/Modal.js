@@ -63,4 +63,8 @@ const Modal = (props) => {
   );
 };
 
+Modal.defaultProps = {
+  show: {},
+};
+
 export default Modal;

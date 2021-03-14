@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+Array [
+  <div
+    className="hidden"
+    id="results"
+  />,
+  <div
+    className="buttons"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        id="custom"
+        onChange={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        type="file"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="Browse"
+      />
+    </form>
+  </div>,
+  <div
+    className="container"
+  >
+    <div
+      className="container gallery-container"
+    >
+      <div
+        className="tz-gallery"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="content"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

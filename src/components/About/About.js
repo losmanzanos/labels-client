@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <p>
           If this is you, Harold is here to help! Harold doesn't have the best
-          vision, but he'll do his best to help you out!
+          vision, but he'll do his best to clear up your confusion!
         </p>
         <p id="smaller">
           (Or maybe he'll just confuse you even more...
