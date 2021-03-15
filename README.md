@@ -34,7 +34,7 @@ Modal View:
 
 ## Link to Server
 
-- [Server](https://github.com/losmanzanos/gratitudes-server)
+- [Server](https://github.com/losmanzanos/labels-server)
 
 ## Author
 
